@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lovely Bakery</title>
+    <link rel="stylesheet" href="styleforresturant.css"/>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<style>
+      * a{
+        text-decoration: none;
+      }
+      body {
+        
+    background-color: rgb(0, 0, 0);    
+
+        
+        color: white;
+        font-family: 'Poppins', sans-serif;;
+      }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+          <div class="left">Lovely Bakery</div>
+          <div class="right">
+            <ul class="nav-links">
+              <li><a href="resturant.html">Home</a></li>
+              <li><a href=" ">Offers</a></li>
+              <li><a href=" " target="_blank" >Cuisines</a></li>
+              <li><a href=" "target="_blank" >Menu Card</a></li>
+              <li><a href=" ">Your Order</a></li>
+          </ul>
+          </div>
+        </nav>
+      </header>
+      <main>
+        <section class="firstsection">
+          <div class="coverimg">
+            <img src="cover3 (1)wp.webp" class="image1">
+            <div class="text-overlay">
+              <h1>Hungry!</h1>
+              <p>Grab Some Delicious Snacks</p>
+              <p>Your favourite? </p><span id="animation"></span><br>
+              
+            </div>
+            <div class="buttonoverlay">
+              <button class="button">Get 10% Discount</button>
+            </div>
+           
+          </div>
+          
+            
+          
+        </section>
+        <div class="food-container">
+          <div class="left-column">
+            <div class="food-item">
+              <img src="buger (1).jpg" alt="Food 1">
+              <div class="price"><p>Chicken Burger<br></p>Price: $10</div>
+            </div>
+            <div class="food-item">
+              <img src="pizza (1).webp" alt="Food 2">
+              <div class="price"><p>American Pizza<br></p>Price: $12</div>
+            </div>
+            <div class="food-item">
+              <img src="sandwich (1).webp" alt="Food 3">
+              <div class="price"><p>Oriental Sandwich<br></p>Price: $15</div>
+            </div>
+          </div>
+          <div class="right-column">
+            <div class="food-item">
+              <div class="priceR"><p>Arabian Shawrma<br></p>Price: $9</div>
+              <img src="shawrma (1).webp" alt="Food 4">
+              
+            </div>
+            <div class="food-item">
+              <div class="priceR"><p>Korean Ramen<br></p>Price: $11</div>
+
+              <img src="ramem (1).webp" alt="Food 5">
+            </div>
+            <div class="food-item">
+              <div class="priceR"><p>French    Fry   <br></p>Price: $14</div>
+
+              <img src="pexels-lukas-1352274 (1).webp" alt="Food 6">
+            </div>
+          </div>
+        </div>
+        </section>
+        <footer class="footer" >
+          <div class="footer-content">
+            <div class="footer-name">
+              
+              <h3>Lovely Bakery</h3>
+            </div>
+            <nav class="footer-nav">
+              <a href="index.html">Home</a>
+              <a href=" ">Offers</a>
+              <a href=" " target="_blank" >Cuisines</a>
+              <a href=" "target="_blank" >Menu Card</a>
+              <a href=" ">Your Order</a>
+             
+            </nav>
+            <div class="footer-social" >
+              <a href="#"><img src="fb.png" height="30px"><i class="fab fa-facebook-f"></i></a>
+              
+              <a href="https://www.instagram.com/th.pavel/"><img src="insta.jpg" height="30px"><i class="fab fa-instagram"></i></a>
+              
+             
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <p>&copy; 2023THP. All rights reserved.</p>
+          </div>
+        </footer>
+
+      </main>
+      
+      <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+      <script>
+        var typed = new Typed('#animation', {
+          strings: [ 'Burger','Pizza','Sandwich','Shawrma','Place order'],
+          typeSpeed: 80,});
+        
+      </script>
+</body>
+</html>
